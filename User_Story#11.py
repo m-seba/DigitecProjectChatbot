@@ -27,23 +27,25 @@ known_answers = {
     ],
 }
 
-answer11 = {"ostfalia": ["0.aaa","1.bbb","2.ccc"]
+answer11 = {"ostfalia": ["0.cerca 150000","1. 4 standort ","2.wolfenuttel","3. 8:00 am - 17:00 pm"],
+            "wintersemester": ["0.digital tech -informatik -rechts - managment","1. yes","2.ccc","3.ccc"],
+            "lan": ["0.all types printer desktop smartphones ","1. faster commnication more productivity ","2.ccc","3.ccc"]
             }
 
-print(ermittelZeit(), "Hello")
-print(ermittelZeit(), "How can I help you?")
+print( "Hello")
+print( "How can I help you?")
 
 user_question = input("Type a keyword: ").lower()
     
 if user_question in known_answers:
     question_variants = known_answers[user_question]
-    print(ermittelZeit(), question_variants)
+    print( question_variants)
     
     user_question2 = int(input("Enter the question number: ")) 
 
     if user_question2 < len(known_answers[user_question]):  #length of elements in set
-        print(ermittelZeit(), answer11[user_question][user_question2])
+        print(answer11[user_question][user_question2])
     else:
-        print(ermittelZeit(), "Invalid index")
+        print( "Invalid index")
 else:
     print("can you write again?")
