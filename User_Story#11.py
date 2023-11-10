@@ -29,7 +29,7 @@ known_answers = {
 
 answer11 = {"ostfalia": ["0.cerca 150000","1. 4 standort ","2.wolfenuttel","3. 8:00 am - 17:00 pm"],
             "wintersemester": ["0.digital tech -informatik -rechts - managment","1. yes","2.ccc","3.ccc"],
-            "lan": ["0.all types printer desktop smartphones ","1. faster commnication more productivity ","2.ccc","3.ccc"]
+            "lan": [" 0.all types printer desktop smartphones ","1. faster commnication more productivity ","2.ccc","3.ccc"]
             }
 
 print( "Hello")
